@@ -6,7 +6,8 @@
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+  min-height: 650px;
+
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -60,7 +61,7 @@
 	margin-left: 10px;
 }
 
-#wportfolio {
+#portfolio {
 	background: url(../img/work.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
@@ -96,7 +97,7 @@
 }
 
 #about {
-	background: url(../img/about.jpg) no-repeat center top;
+	background: url() no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
