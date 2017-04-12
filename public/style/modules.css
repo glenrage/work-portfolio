@@ -1,12 +1,12 @@
 
 #headerwrap {
 	background: url(../images/dock2.jpg) no-repeat center top;
-	margin-top: -70px;
+	margin-top: ;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-  min-height: 650px;
+  min-height: 100vh;
 
 	width: 100%;
 
@@ -63,12 +63,12 @@
 
 #portfolio {
 	background: url(../images/mac.jpeg) no-repeat center top;
-	margin-top: -70px;
+	margin-top: ;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 100vh;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -97,13 +97,13 @@
 }
 
 #about {
-	background: url() no-repeat center top;
-	margin-top: -70px;
+	background: url(../images/thailand.jpg) no-repeat center top;
+	margin-top: 10%;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 550px;
+	min-height: 100vh;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -116,8 +116,80 @@
     -o-background-size: cover;
     background-size: cover;
 }
+/*
+#about h3 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 50px;
+	font-weight: bold;
+	opacity: .7
+}*/
 
 
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:18px;
+	box-shadow:1px 1px 0 0 #333333;
+	width:100%;
+	background:#43484E;
+	height:35px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:25%;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background-color:#fc7700;
+}
+
+.skillbar-title span {
+	float: none;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	text-align: left;
+	display:block;
+	background-color:#fc7700;
+	padding:0 15px;
+	height:35px;
+	line-height:35px;
+}
+
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background-color:#fc7700;
+	box-shadow:0 1px 0 0 #333333;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+}
 
 
 /* Gallery */
