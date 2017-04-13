@@ -31,7 +31,7 @@
 }
 
 #headerwrap h4 {
-	font-weight: 400;
+	font-weight: 500;
 	color: #ffffff
 }
 
@@ -116,17 +116,6 @@
     -o-background-size: cover;
     background-size: cover;
 }
-/*
-#about h3 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 50px;
-	font-weight: bold;
-	opacity: .7
-}*/
-
 
 
 .skillbar {
