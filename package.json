@@ -1,0 +1,19 @@
+{
+  "name": "work-portfolio",
+  "version": "1.0.0",
+  "description": "my workportfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenrage/work-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glenrage/work-portfolio/issues"
+  },
+  "homepage": "https://github.com/glenrage/work-portfolio#readme"
+}
