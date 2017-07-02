@@ -477,14 +477,28 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 --- Footer
 ============================ */
 
+#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+	color: #86212d
+}
+
 footer {
 	text-align: center;
 	padding: 50px 0 30px;
-
 }
 
 footer p {
-	color: #f8f8f8;
+	color: white;
 }
 
 footer a {
@@ -494,9 +508,7 @@ footer a {
 footer a:hover {
 	color: #ccc;
 }
-.credits {
-    color: #fff;
-}
+
 
 /* ==========================
 Parallax
