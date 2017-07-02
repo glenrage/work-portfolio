@@ -299,7 +299,7 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../images/bg1.jpg) no-repeat top center;
+	background: url(../images/watertank.jpg) no-repeat top center;
 	background-size: cover;
 }
 
@@ -359,11 +359,40 @@ hr {
 	color: #fff;
 }
 
-.info-blocks {margin-bottom: 10px;/* background: #efefef; */}
-.info-blocks i.icon-info-blocks {float: left;color: #b0e4df;font-size: 24px;min-width: 50px;margin-top: 10px; margin-left:15px;text-align: center;background: #636b74;width: 72px;height: 72px;padding-top: 21px;border: 1px solid #002e5b;border-radius: 50%;}
-.info-blocks .info-blocks-in {padding:10px;overflow: hidden;}
-.info-blocks .info-blocks-in h3 {color: #636b74;font-size: 18px;line-height: 28px;margin:0px;margin-bottom: 8px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
-.info-blocks .info-blocks-in p {font-size: 14px;}
+.info-blocks {
+  margin-bottom: 10px;/* background: #efefef; */
+}
+.info-blocks i.icon-info-blocks {
+  float: left;
+  color: #b0e4df;
+  font-size: 24px;
+  min-width: 50px;
+  margin-top: 10px;
+  margin-left:15px;
+  text-align: center;
+  background: white;
+  width: 72px;
+  height: 72px;
+  padding-top: 21px;
+  border: 1px solid #002e5b;
+  border-radius: 50%;
+}
+.info-blocks .info-blocks-in {
+  padding:10px;
+  overflow: hidden;
+}
+.info-blocks .info-blocks-in h3 {
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  margin:0px;
+  margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;font-weight: 600;
+}
+.info-blocks .info-blocks-in p {
+  font-size: 14px;
+  color: white;
+}
 
 
 
@@ -474,7 +503,7 @@ Parallax
 ============================= */
 
 #separator {
-	background-image: url(../images/parallax-bg.jpg);
+	background-image: url(../images/thailand.jpg);
 }
 
 #separator .icon {
