@@ -304,7 +304,7 @@ hr {
 }
 
 #intro.intro {
-	padding:20%
+	padding:22%
 }
 
 .intro .slogan {
@@ -506,7 +506,7 @@ footer a {
 }
 
 footer a:hover {
-	color: #ccc;
+	color: purple;
 }
 
 
@@ -515,7 +515,7 @@ Parallax
 ============================= */
 
 #separator {
-	background-image: url(../images/thailand.jpg);
+	background-image: url(../images/bw.jpg);
 }
 
 #separator .icon {
@@ -523,7 +523,7 @@ Parallax
 }
 
 #separator span, h1 {
-	color: #fff;
+	color: white;
 }
 
 #separator:after {
