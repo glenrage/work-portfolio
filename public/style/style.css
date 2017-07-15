@@ -612,11 +612,6 @@ a.btn:hover {
     font-size: 26px;
 }
 
-.banner-social-buttons {
-    margin-top: 0;
-}
-
-
 /* Media queries */
 
 @media (max-width:768px) {
