@@ -1,7 +1,5 @@
-
 @import url(https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Lato|Roboto|Droid+Serif|Roboto+Slab);
-
 
 body {
     width: 100%;
@@ -215,21 +213,13 @@ hr {
 	margin-bottom: 20px;
 }
 
-
 /* --- section bg var --- */
 
-.bg-white {
-	background: #fff;
-}
 
 .bg-gray {
 	background: #f8f8f8;
 }
 
-
-.bg-dark {
-	background: #575757;
-}
 
 /* --- section color var --- */
 
