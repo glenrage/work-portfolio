@@ -46,3 +46,31 @@
         }
 
 })(jQuery);
+
+//
+// $('#contact-form').submit(function(event) {
+// 	event.preventDefault();
+// 	submitForm();
+// })
+//
+// function submitForm() {
+// 	console.log('hit')
+// 	let name = $('#name').val()
+// 	let email = $('#email').val()
+// 	let subject = $('#subject').val()
+// 	let message = $('#message').val()
+//
+// 	$.ajax({
+// 		type:"POST",
+// 		url: `${__dirname}/form-process.php`,
+// 		 data: "name=" + name + "&email=" + email + "&message=" + message + "&subject=" + subject,
+// 		 success : function(text){
+// 				 if (text == "success"){
+// 						 formSuccess();
+// 				 }
+// 		 }
+//  });
+// }
+// function formSuccess(){
+// 	console.log('email success')
+// }
