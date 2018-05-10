@@ -1,0 +1,43 @@
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  font-size: 2rem;
+  background-color: $color-black;
+  box-sizing: border-box;
+
+  &__wrapper {
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 20px;
+  }
+
+  &__logo {
+    margin-left: 0;
+    position: static;
+    width: 35px;
+    height: 35px;
+    color: $color-white;
+  }
+
+  &__menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+    color: $color-white;
+  }
+
+  &__text {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.welcome {
+  background-color: red;
+  height: 600px;
+}
