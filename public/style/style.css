@@ -234,7 +234,7 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../images/watertank.jpg) no-repeat top center;
+	background: url(../images/code-mac.jpg) no-repeat top center;
 	background-size: cover;
 }
 
@@ -277,12 +277,14 @@ hr {
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
+  letter-spacing: 2px;
 	text-shadow: -1px 0 1px #000;
 }
 
 .intro .slogan h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+  letter-spacing: 2px;
 }
 
 /* ===========================
