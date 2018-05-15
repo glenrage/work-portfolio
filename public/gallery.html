@@ -1,0 +1,491 @@
+/**
+ * ===================================================================
+ * 13. portfolio - (_layout.scss)
+ *
+ * -------------------------------------------------------------------
+ */
+#portfolio {
+  background: #ffffff;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+#portfolio .folio-item {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+#portfolio .folio-item img {
+  /* height: 500px;
+  width: 300px; */
+  vertical-align: middle;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .folio-item-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+#portfolio .folio-item-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  left: -100%;
+}
+
+#portfolio .folio-title {
+  color: #ffffff;
+  font-size: 3.3rem;
+  padding: 0 3rem;
+  margin-bottom: 0;
+}
+#portfolio .folio-types {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: 'poppins-regular', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+#portfolio .folio-item:hover .overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+#portfolio .folio-item:hover .folio-item-cell {
+  left: 0;
+}
+#portfolio .folio-item:hover img {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/**
+ * responsive:
+ * portfolio
+ * -------------------------------------------------------------------
+ */
+@media only screen and (max-width: 1024px) {
+  #portfolio .folio-title {
+    font-size: 3.1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #portfolio .folio-title {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #portfolio .folio-title {
+    font-size: 2.2rem;
+  }
+}
+
+/**
+ * Popup Modal - (_layout.scss)
+ * ------------------------------------------------------------------
+ */
+.popup-modal {
+  max-width: 550px;
+  background: #ffffff;
+  position: relative;
+  margin: 0 auto;
+}
+.popup-modal .media {
+  position: relative;
+}
+.popup-modal img {
+  vertical-align: bottom;
+}
+.popup-modal .description-box {
+  padding: 1.8rem 3.6rem 3rem;
+}
+.popup-modal .description-box h4 {
+  font-family: 'poppins-bold', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+.popup-modal .description-box p {
+  font-family: 'poppins-regular', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-bottom: 12px;
+}
+.popup-modal .categories {
+  font-family: 'poppins-bold', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: block;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+.popup-modal .link-box {
+  width: 100%;
+  overflow: hidden;
+  background: #22252c;
+}
+.popup-modal .link-box a {
+  font-family: 'poppins-bold', sans-serif;
+  font-size: 1.2rem;
+  line-height: 6rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  float: left;
+  width: 50%;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.popup-modal .link-box a:first-child {
+  border-right: 1px solid rgba(200, 200, 200, 0.1);
+}
+.popup-modal .link-box a:hover {
+  background: #e14658;
+  border: none;
+}
+@media only screen and (max-width: 600px) {
+  .popup-modal {
+    width: auto;
+    margin: 0 20px;
+  }
+}
+
+/**
+ * transition effect for modal popup - (_layout.scss)
+ * ------------------------------------------------------------------
+ */
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.9;
+}
+
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* content animate in */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+
+
+
+<!-- Portfolio Section
+ ================================================== -->
+<section id="portfolio">
+
+  <div class="row section-intro">
+    <div class="col-twelve">
+
+      <h2>Portfolio</h2>
+      <h1>Check out some of my work.</h1>
+
+    </div>
+  </div> <!-- /section-intro-->
+
+  <div class="row portfolio-content">
+
+    <div class="col-twelve">
+
+      <!-- portfolio-wrapper -->
+         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+          <div class="bgrid folio-item">
+               <div class="item-wrap">
+                <img src="images/portfolio/animalscreen.jpg" alt="Liberty">
+                  <a href="#modal-01" class="overlay">
+                     <div class="folio-item-table">
+                      <div class="folio-item-cell">
+                       <h3 class="folio-title">Liberty</h3>
+                       <span class="folio-types">
+                          Graphic Design
+                       </span>
+                   </div>
+                     </div>
+                  </a>
+               </div>
+            </div> <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                <img src="images/portfolio/fit.jpg" alt="Shutterbug">
+                <a href="#modal-02" class="overlay">
+                     <div class="folio-item-table">
+                      <div class="folio-item-cell">
+                        <h3 class="folio-title">Shutterbug</h3>
+                      <span class="folio-types">
+                          Web Design
+                      </span>
+                   </div>
+                     </div>
+                  </a>
+               </div>
+            </div> <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                <img src="images/portfolio/clouds.jpg"alt="Clouds">
+                  <a href="#modal-03" class="overlay">
+                     <div class="folio-item-table">
+                      <div class="folio-item-cell">
+                        <h3 class="folio-title">Clouds</h3>
+                      <span class="folio-types">
+                          Web Design
+                      </span>
+                   </div>
+                     </div>
+                  </a>
+               </div>
+            </div> <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                <img src="images/portfolio/beetle.jpg" alt="Beetle">
+                  <a href="#modal-04" class="overlay">
+                     <div class="folio-item-table">
+                      <div class="folio-item-cell">
+                        <h3 class="folio-title">Beetle</h3>
+                      <span class="folio-types">
+                          Branding
+                      </span>
+                   </div>
+                     </div>
+                  </a>
+               </div>
+            </div> <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+                  <a href="#modal-05" class="overlay">
+                     <div class="folio-item-table">
+                      <div class="folio-item-cell">
+                        <h3 class="folio-title">Lighthouse</h3>
+                      <span class="folio-types">
+                          Web Development
+                      </span>
+                   </div>
+                     </div>
+                  </a>
+               </div>
+            </div> <!-- /folio-item -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                <img src="images/portfolio/salad.jpg" alt="Salad">
+                  <a href="#modal-06" class="overlay">
+                     <div class="folio-item-table">
+                      <div class="folio-item-cell">
+                        <h3 class="folio-title">Salad</h3>
+                      <span class="folio-types">
+                          Branding
+                      </span>
+                   </div>
+                     </div>
+                  </a>
+               </div>
+            </div> <!-- /folio-item -->
+
+            <!-- modal popups - begin
+            ============================================================= -->
+            <div id="modal-01" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+            </div>
+
+           <div class="description-box">
+              <h4>Liberty</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+              <div class="categories">Web Development</div>
+           </div>
+
+             <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
+
+         </div> <!-- /modal-01 -->
+
+         <div id="modal-02" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+            </div>
+
+           <div class="description-box">
+              <h4>Shutterbug</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+              <div class="categories">Web Design</div>
+           </div>
+
+             <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
+
+         </div> <!-- /modal-02 -->
+
+         <div id="modal-03" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+            </div>
+
+           <div class="description-box">
+              <h4>Clouds</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+              <div class="categories">Web Design</div>
+           </div>
+
+             <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
+
+         </div> <!-- /modal-03 -->
+
+         <div id="modal-04" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+            </div>
+
+           <div class="description-box">
+              <h4>Beetle</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+              <div class="categories">Branding</div>
+           </div>
+
+             <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
+
+         </div> <!-- /modal-04 -->
+
+         <div id="modal-05" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+            </div>
+
+           <div class="description-box">
+              <h4>Lighthouse</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+              <div class="categories">Web Development</div>
+           </div>
+
+             <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
+
+         </div> <!-- /modal-05 -->
+
+         <div id="modal-06" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/m-salad.jpg" alt="" />
+            </div>
+
+           <div class="description-box">
+              <h4>Salad</h4>
+              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+              <div class="categories">Branding</div>
+           </div>
+
+             <div class="link-box">
+                <a href="http://www.behance.net">Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
+
+         </div> <!-- /modal-06 -->
+
+
+         <!-- modal popups - end
+            ============================================================= -->
+
+         </div> <!-- /portfolio-wrapper -->
+
+    </div>  <!-- /twelve -->
+
+  </div> <!-- /portfolio-content -->
+
+</section> <!-- /portfolio -->
