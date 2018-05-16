@@ -3,7 +3,7 @@
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-  background: #ebeeee;
+  background: #ffffff;
   padding-top: 90px;
   padding-bottom: 60px;
 }
@@ -158,7 +158,7 @@
   cursor: pointer;
 }
 .popup-modal a:hover {
-  color: #00cccc;
+  color: #e14658;
 }
 .popup-modal a.popup-modal-dismiss {
   margin-left: 24px;
