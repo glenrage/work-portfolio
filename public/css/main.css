@@ -814,7 +814,7 @@ input::-moz-focus-inner {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-bottom: 3.6rem;
+  margin-bottom: 5rem;
   position: relative;
 }
 .section-intro h1 {
@@ -1114,8 +1114,8 @@ header .logo a {
   font-size: 8.4rem;
   line-height: 1.071;
   max-width: 900px;
-  margin-top: 0;
-  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -1131,7 +1131,7 @@ header .logo a {
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-  font-family: 'lora-regular', serif;
+  font-family: 'poppins-regular', serif;
   font-size: 1.7rem;
   line-height: 2.4rem;
   text-transform: uppercase;
@@ -1282,9 +1282,6 @@ header .logo a {
   color: #888888;
   font-size: 1.5rem;
   line-height: 1;
-}
-.about-content .skill-bars {
-  margin-top: 6rem;
 }
 
 .button-section {
@@ -1516,93 +1513,6 @@ header .logo a {
   #resume .timeline-content {
     padding-left: 5.5rem;
   }
-}
-
-/**
- * ===================================================================
- * 15. services - (_layout.scss)
- *
- * -------------------------------------------------------------------
- */
-#services {
-  background: #313131 url(../images/bg.jpg) no-repeat center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
-  color: white;
-  position: relative;
-}
-#services .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #22252c;
-  opacity: 0.9;
-}
-
-#services .section-intro {
-  margin-bottom: 1.8rem;
-}
-
-#services .section-intro h1 {
-  color: white;
-}
-#services .section-intro h5 {
-  color: #e14658;
-}
-#services .section-intro p {
-  color: rgba(255, 255, 255, 0.7);
-}
-.services-content {
-  max-width: 1200px;
-}
-.services-list {
-  margin-top: 1.2rem;
-  text-align: center;
-}
-.services-list .service {
-  margin-bottom: 1.2rem;
-  padding: 0 30px;
-}
-.services-list .icon {
-  display: inline-block;
-  margin-bottom: 2.1rem;
-}
-.services-list .icon i {
-  font-size: 5.4rem;
-  color: #e14658;
-}
-.services-list h3 {
-  color: #ffffff;
-}
-.services-list .desc {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-/* pagination */
-.owl-pagination {
-  text-align: center;
-  width: 100%;
-  margin: 0.6rem 0 0;
-}
-.owl-theme .owl-controls .owl-page {
-  display: inline-block;
-}
-.owl-theme .owl-controls .owl-page span {
-  display: block;
-  width: 1.2rem;
-  height: 1.2rem;
-  margin: 1.2rem 0.8rem 0 0.8rem;
-  border-radius: 50%;
-  display: inline-block;
-  background: #ffffff;
-}
-.owl-theme .owl-controls .owl-page.active span {
-  background: #e14658;
 }
 
 /**
@@ -1868,7 +1778,6 @@ footer {
 footer a:hover {
   color: #e14658;
 }
-
 footer a:focus {
   color: #e14658;
 }
