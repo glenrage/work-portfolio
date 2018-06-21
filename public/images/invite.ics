@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Van Hollebeke, Emily":MAILTO:evanhollebeke@teksystems.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=glen p:MAI
+ LTO:phamgalang@gmail.com
+DESCRIPTION;LANGUAGE=en-US:\n\nHi Gene\,\n\nThank you for taking the time t
+ o speak with me this afternoon. I look forward to meeting you on Wednesday
+  5/23 at 9 AM. (Coffee on me)\n\nIn preparation for our meeting\, you may 
+ want to look at our website to get an idea of what TEKsystems can offer.  
+ http://www.teksystems.com/\n\nAlso\, in order for us to move quickly on op
+ portunities for you\, I will need the contact information for two supervis
+ ory (managers\, supervisors\, or leads) references\, ideally from projects
+  you worked on from within the last three years. Please email or bring the
+ m with you to our meeting along with an updated resume.\n\nThanks!\n\n\nTh
+ is electronic mail (including any attachments) may contain information tha
+ t is privileged\, confidential\, and/or otherwise protected from disclosur
+ e to anyone other than its intended recipient(s). Any dissemination or use
+  of this electronic mail or its contents (including any attachments) by pe
+ rsons other than the intended recipient(s) is strictly prohibited. If you 
+ have received this message in error\, please notify us immediately by repl
+ y e-mail so that we may correct our internal records. Please then delete t
+ he original message (including any attachments) in its entirety. Thank you
+ \n
+UID:040000008200E00074C5B7101A82E00800000000E089F9F96CECD301000000000000000
+ 01000000002C474A21E9BA74F8F3E391FE53D6E82
+SUMMARY;LANGUAGE=en-US:Meeting with Gene Pham 
+DTSTART;TZID=Pacific Standard Time:20180523T090000
+DTEND;TZID=Pacific Standard Time:20180523T093000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20180516T002714Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION;LANGUAGE=en-US:1601 5th Ave (Westlake Center Lobby) Cafe Pogacha 
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-OWNERAPPTID:-487630878
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"1601 5th Ave (Westlake Center Lobby)
+  Cafe Pogacha "\,"LocationAnnotation":""\,"LocationUri":""\,"LocationStree
+ t":""\,"LocationCity":""\,"LocationState":""\,"LocationCountry":""\,"Locat
+ ionPostalCode":""\,"LocationFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
